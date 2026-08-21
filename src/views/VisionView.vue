@@ -140,6 +140,11 @@
                 </div>
               </div>
 
+              <div class="phase-block" data-reveal>
+                <h3>{{ t('vision.phase2h5') }}</h3>
+                <p v-html="t('vision.phase2p6')"></p>
+              </div>
+
               <div class="phase-split" :class="{ 'phase-split--solo': !hasVisionMedia('marsColonization') }">
                 <div class="phase-text" data-reveal data-reveal-direction="left">
                   <h3>{{ t('vision.phase2h3') }}</h3>
